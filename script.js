@@ -29,6 +29,8 @@ document.addEventListener("DOMContentLoaded", () => {
     count = 0;
     updateDisplay();
   });
+
+  updateDisplay();
 });
 
 function clamp(max, variable, min) {
